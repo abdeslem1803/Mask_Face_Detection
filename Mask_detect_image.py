@@ -56,13 +56,12 @@ try:
         cv2.rectangle(image,(start_x,start_y),(end_x,end_y),color,2)
 
 except:
-    print("erreur")
     pass
         
 cv2.imshow("OutPut",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-#use this line if you use a loop
+#use this line in case of loop
 #image = frame.copy()
 
 
