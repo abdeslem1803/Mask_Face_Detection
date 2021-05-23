@@ -31,7 +31,7 @@ mask_detection_model = load_model("new_mobilenet.model")
 # In[44]:
 
 
-frame = cv2.imread("example_03.png")
+frame = cv2.imread("example_02.png")
 image = frame.copy()
 
 
@@ -61,11 +61,10 @@ except:
 cv2.imshow("OutPut",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-#use this line in case of loop
+#use this line in case of a loop
 #image = frame.copy()
 
 
-# In[ ]:
 
 
 
